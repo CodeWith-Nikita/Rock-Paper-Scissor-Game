@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#050A30 ;
+    color:#7EC8E3;
+    text-shadow: 0.2rem 0.2rem 1rem #000C66;
+}
+
+h1{
+    text-align: center;
+    margin:2rem;
+    font-weight:5rem;
+    font-size:3em;
+    color:#a2a7c6d8;
+    border-radius:2rem;
+    box-shadow: 0.2rem 0.2rem 9rem #7EC8E3;
+}
+
+.choices{
+    border:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    text-shadow: 0rem 0rem 0.5rem #a1a10f;
+    cursor:pointer;
+}
+
+.choice{
+    transition: text-shadow 0.5s ease-in-out;
+}
+
+.choice:hover{
+    text-shadow: 0rem 0rem 1rem #2aa99de2;
+}
+
+.choice:active{
+    text-shadow: 0rem 0rem 2.5rem #2aa99de2;
+}
+
+.scores{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    font-size:3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#msg{
+    text-align:center;
+    margin:5rem;
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-shadow: 0rem 0rem 2rem rgb(47, 217, 255);
+}
+
+#newgameDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#new-game{
+    background-color: #1f2ea6ae;
+    border:none;
+    height:4rem;
+    border-radius:1rem;
+    margin-bottom:2rem;
+    color:#36c0bb;
+    font-size: 2rem;
+    font-weight:bolder;
+    padding : 0.5rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 2rem ;
+    transition:box-shadow 0.5s ease-in-out;
+}
+
+#new-game:hover{
+    box-shadow: 0px 0px 2.5rem ;
+}
+
+#new-game:active{
+    box-shadow: 0px 0px 4.5rem ;
+}
